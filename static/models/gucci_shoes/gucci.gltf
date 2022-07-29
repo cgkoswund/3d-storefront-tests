@@ -1,0 +1,348 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_2"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Object_3"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Object_4"
+        },
+        {
+            "mesh" : 3,
+            "name" : "Object_5"
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2,
+                3
+            ],
+            "name" : "gucci_shoes_cleaned.obj.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.9999854564666748,
+                -0.0036955736577510834,
+                1.45251106005162e-05,
+                0.003930350765585899
+            ],
+            "translation" : [
+                0.008425355888903141,
+                -1.229357361793518,
+                1.0422348976135254
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "gucci_shoes_cleaned_u1_v1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.10489986091852188
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_0.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Object_1.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Object_2.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 11,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Object_3.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 15,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "gucci_shoes_cleaned_u1_v1_baseColor",
+            "uri" : "gucci_shoes_cleaned_u1_v1_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 12344,
+            "max" : [
+                2.9730117321014404,
+                0.008077492006123066,
+                0.7595247030258179
+            ],
+            "min" : [
+                -2.0155837535858154,
+                -2.1383273601531982,
+                -0.9940676093101501
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12344,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 12344,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 41490,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 22214,
+            "max" : [
+                2.9567770957946777,
+                0.009714271873235703,
+                0.7368999719619751
+            ],
+            "min" : [
+                -2.010209560394287,
+                -2.4187989234924316,
+                -0.9905170202255249
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 22214,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 22214,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 74487,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 25297,
+            "max" : [
+                2.9706082344055176,
+                0.008990427479147911,
+                0.7387142777442932
+            ],
+            "min" : [
+                -2.014986991882324,
+                -2.4200210571289062,
+                -0.9895524978637695
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 25297,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 25297,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 75588,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 16601,
+            "max" : [
+                2.9718542098999023,
+                0.016625111922621727,
+                0.7402992844581604
+            ],
+            "min" : [
+                -2.0111119747161865,
+                -2.4191956520080566,
+                -0.9924939870834351
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 16601,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 16601,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 28692,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 87649,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 157467,
+            "byteOffset" : 87652
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 182466,
+            "byteOffset" : 245120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 129052,
+            "byteOffset" : 427588
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 556640,
+            "uri" : "gucci.bin"
+        }
+    ]
+}

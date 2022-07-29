@@ -1,0 +1,253 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_2"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Object_3"
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "Sievi_Racer_safety_shoe_SF.obj.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.68595290184021,
+                0.68595290184021,
+                0.68595290184021
+            ],
+            "emissiveTexture" : {
+                "index" : 0
+            },
+            "name" : "Sievi_Racer_safety_shoe",
+            "normalTexture" : {
+                "index" : 1
+            },
+            "occlusionTexture" : {
+                "index" : 2
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                },
+                "roughnessFactor" : 0.7368296980857849
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_0.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 3,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Object_1.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 2
+                            }
+                        }
+                    },
+                    "indices" : 7,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Sievi_Racer_safety_shoe_baseColor",
+            "uri" : "Sievi_Racer_safety_shoe_baseColor.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Sievi_Racer_safety_shoe_normal",
+            "uri" : "Sievi_Racer_safety_shoe_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Sievi_Racer_safety_shoe_metallicRoughness",
+            "uri" : "Sievi_Racer_safety_shoe_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 14283,
+            "max" : [
+                1.3018863201141357,
+                1.853464961051941,
+                3.140594959259033
+            ],
+            "min" : [
+                -1.269819974899292,
+                -4.352771759033203,
+                0.11361855268478394
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 14283,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 14283,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 55074,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11766,
+            "max" : [
+                1.26009202003479,
+                2.15384840965271,
+                3.1435048580169678
+            ],
+            "min" : [
+                -1.1144839525222778,
+                -2.6001789569854736,
+                0.12418899685144424
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11766,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11766,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 38733,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 111297,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 93233,
+            "byteOffset" : 111300
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 204536,
+            "uri" : "sieviRacer.bin"
+        }
+    ]
+}

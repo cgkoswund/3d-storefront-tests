@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nike Zoom Pegasus Shoe by DigitWorlds.com -
+* source:	https://sketchfab.com/3d-models/nike-zoom-pegasus-shoe-by-digitworldscom-155fe25d6c9f4958b07df9f2d9b8833c
+* author:	Przemek Gesicki - DigitWorlds (https://sketchfab.com/DigitWorlds)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nike Zoom Pegasus Shoe by DigitWorlds.com -" (https://sketchfab.com/3d-models/nike-zoom-pegasus-shoe-by-digitworldscom-155fe25d6c9f4958b07df9f2d9b8833c) by Przemek Gesicki - DigitWorlds (https://sketchfab.com/DigitWorlds) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
